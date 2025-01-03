@@ -1,0 +1,50 @@
+
+body{
+    background-color: rgb(3, 3, 48);
+}
+.first-div{
+    float: left;
+    width: 100%;
+    background-color: rgb(5, 5, 105);
+    color:aliceblue;
+    padding: 0.5% 0% 0.5% 0%;
+}
+.first-div li{
+    display: inline;
+    margin: 0% 1% 0% 3%;
+    font-size: 20px;
+    
+}
+.first-div a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.second-div{
+    float: left;
+    width: 100%;
+}
+.second-div h1{
+    color:aliceblue;
+    text-align: center;
+    margin: 3% 3% 0% 0%;
+}
+
+
+.BookEvents-div{
+    float: left;
+    width: 50%;
+    margin: 5% 0% 0% 20%;
+}
+.BookEvents-div input{
+    float:left;
+    width: 80%;
+    font-size: 15px;
+    margin: 2% 0% 0% 20%;
+    padding: 1% 0% 1% 0%;
+}
+.BookEvents-div button{
+    float: left;
+    width: 20%;
+    font-size: 20px;
+    margin: 2% 0% 0% 50%;
+}

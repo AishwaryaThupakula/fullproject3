@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           {% block title %}
+              Event Management Page
+           {% endblock title %}
+        </title>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        <div class="first-div">
+            <nav>
+                <ul>
+                   <a href=""><li>Home</li></a>
+                   <a href=""><li>RegisterEvent</li></a>
+                   <a href=""><li>ViewEvents</li></a>
+                   <a href="/book_event"><li>BookEvents</li></a>
+                   <a href=""><li>Bookings</li></a>
+                   <a href=""><li>CancelBooking</li></a>
+                   <a href=""><li>SearchEvent</li></a>
+                   <a href=""><li>FilterEvent</li></a>
+                </ul>
+            </nav>
+        </div>
+
+        {% block content %}
+         <div class="second-div">
+            <h1>Event Management Page</h1>
+         </div>
+        {% endblock content %}
+
+        <div class="footer-div">
+            <p>&copy; All rights reserved 2024 | Developed By Nikhil Pokuri</p>
+        </div>
+
+    </body>
+</html>
